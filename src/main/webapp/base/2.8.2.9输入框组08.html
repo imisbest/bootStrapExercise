@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Document</title>
+    <link href="../boot/css/bootstrap.min.css" rel="stylesheet">
+    <!--核心jquery js-->
+    <script src="../boot/js/jquery-3.4.1.min.js"></script>
+    <!--bootstrap 核心 js-->
+    <script src="../boot/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<!--输入框组-->
+<form action="" class="form-horizontal">
+    <div class="form-group">
+        <label>用户名:</label>
+        <div class="input-group">
+            <div class="input-group-addon">前面添加</div>
+            <input class="form-control" type="text">
+            <div class="input-group-addon">后面添加</div>
+        </div>
+    </div>
+</form>
+<br>
+
+<!--输入框组-->
+<div class="input-group">
+    <input class="form-control" type="text">
+    <div class="input-group-addon">@example.com</div>
+</div>
+
+<br><br><br>
+调整输入框组大小
+<div class="input-group input-group-sm">
+    <div class="input-group-addon">https://example.com/users/</div>
+    <input class="form-control" type="text">
+</div>
+<br><br><br><br>
+<!--输入框组加入表单控件-->
+<div class="input-group">
+    <div class="input-group-addon">
+        <input type="checkbox">
+    </div>
+    <input class="form-control" type="text">
+</div>
+<br><br><br>
+
+<div class="input-group">
+    <!--添加按钮-->
+    <span class="input-group-btn">
+           <button class="btn btn-default" type="button">添加按钮</button>
+       </span>
+    <input class="form-control" type="text">
+</div>
+<!--输入框组放入下拉菜单-->
+<div class="input-group">
+    <div class="input-group-btn">
+        <button class="btn btn-default">小黑</button>
+        <button class="btn btn-default" data-toggle="dropdown"><span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li>AAAA</li>
+            <li>BBB</li>
+        </ul>
+    </div>
+    <input class="form-control" type="text">
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="input-group">
+            <!--添加按钮-->
+            <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">栅格输入框组</button>
+               </span>
+            <input class="form-control" type="text">
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

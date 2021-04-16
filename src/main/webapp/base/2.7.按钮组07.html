@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Document</title>
+    <link href="../boot/css/bootstrap.min.css" rel="stylesheet">
+    <!--核心jquery js-->
+    <script src="../boot/js/jquery-3.4.1.min.js"></script>
+    <!--bootstrap 核心 js-->
+    <script src="../boot/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<div style="margin-top: 300px">
+    <!--下拉菜单-->
+    <div class="dropup">
+        <button class="btn btn-default" data-toggle="dropdown">上拉选择 <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li>Spring</li>
+            <li>小黑</li>
+        </ul>
+    </div>
+</div>
+
+<!--单按钮-->
+<div class="btn-group">
+    <button class="btn btn-primary" data-toggle="dropdown">单选按钮选择 <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li>Spring</li>
+        <li>小黑</li>
+    </ul>
+</div>
+
+<!--分列式按钮-->
+<div class="btn-group dropup">
+    <button class="btn btn-primary  btn-lg">分列式选择按钮</button>
+    <button class="btn btn-primary  btn-lg" data-toggle="dropdown"><span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li>Spring</li>
+        <li>小黑</li>
+    </ul>
+</div>
+</body>
+</html>
